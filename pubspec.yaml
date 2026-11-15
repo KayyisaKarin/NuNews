@@ -1,0 +1,27 @@
+name: nu_news
+description: "NuNews - Modern Indonesian News Reader built with Flutter & Riverpod."
+publish_to: 'none'
+version: 2.4.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: '>=3.4.1 <5.0.0'
+  flutter_riverpod: '>=2.6.1 <4.0.0'
+  http: '>=1.2.2 <2.0.0'
+  intl: '>=0.19.0 <1.0.0'
+  shared_preferences: '>=2.3.3 <3.0.0'
+  url_launcher: '>=6.3.1 <7.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: '>=5.0.0 <7.0.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/fallback_news.jpg

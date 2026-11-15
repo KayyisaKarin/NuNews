@@ -1,0 +1,6 @@
+{
+  "name": "NuNews - Aplikasi Berita Modern Indonesia",
+  "description": "Aplikasi berita modern Indonesia dengan kurasi berita terkini, kustomisasi pembaca interaktif, markah, dan penelusuran kategori.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
